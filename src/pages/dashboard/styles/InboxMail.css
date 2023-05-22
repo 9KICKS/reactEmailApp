@@ -1,0 +1,12 @@
+.inbox-mail {
+    top: 0;
+    width: 680px;
+    height: 100%;
+    background-color: #262626;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: absolute;
+    left: 590px;
+    border: 2px solid #F8FAFC;
+}
