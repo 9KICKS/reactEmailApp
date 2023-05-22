@@ -1,0 +1,124 @@
+.side-bar {
+    width: 300px;
+    height: 150%;
+    background-color: #262626;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #F8FAFC;
+    border-radius: 10px;
+}
+
+.dropdown {
+    margin-top: 60px;
+}
+
+.icons-header {
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icons {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    color: #7F7F7F;
+}
+
+.icons-header:hover {
+    background-color: #006AD4;
+}
+
+.icons:hover {
+    background-color: #353739;
+}
+
+.icons-header:focus {
+    outline: none;
+    background-color: #006AD4;
+}
+
+.icons:focus {
+    outline: none;
+    background-color: #353739;
+}
+
+.folder-dropdown {
+    margin-top: 28px;
+}
+
+.folder-header {
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.folder-icons {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+
+.folder-header:hover {
+    background-color: #006AD4;
+}
+
+.folder-icons:hover {
+    background-color: #353739;
+}
+
+.folder-header:focus {
+    outline: none;
+    background-color: #006AD4;
+}
+
+.folder-icons:focus {
+    outline: none;
+    background-color: #353739;
+}
+
+.user-account {
+    margin-top: 140px;
+    display: flex;
+}
+
+.user-details {
+    margin-left: 10px;
+}
+
+.user-name {
+    font-size: 16px;
+    color: #F8FAFC;
+}
+
+.icloud {
+    font-size: 14px;
+    color: #7F7F7F;
+}
