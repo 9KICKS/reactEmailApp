@@ -1,0 +1,91 @@
+.inbox {
+    width: 600px;
+    height: 125%;
+    background-color: #262626;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 290px;
+    border: 2px solid #F8FAFC;
+}
+
+.inbox-header {
+    color: #F8FAFC;
+    font-size: 32px;
+}
+
+.message-summary {
+    color: #7F7F7F;
+    font-size: 14px;
+    margin-top: -25px;
+}
+
+.search-sort-section {
+    display: flex;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #353739;
+    border: 1px solid transparent;
+    padding: 5px;
+    width: 500px;
+    height: 36px;
+    border-radius: 10px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background-color: #353739;
+    color: white;
+}
+
+.sort-icon {
+    margin-left: 20px;
+}
+
+.inbox-divider {
+    width: 100%;
+}
+
+.email-list {
+     height: 680px;
+     overflow-y: scroll;
+ }
+
+.email-item {
+    margin: 2rem 0;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.email-item:hover {
+    border-radius: 10px;
+    background-color: #353739;
+}
+
+.email-sender {
+    color: #F8FAFC;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.email-subject {
+    color: #F8FAFC;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.email-body {
+    color: #7F7F7F;
+    font-size: 1rem;
+    margin: 0.5rem 0 0 0;
+}
